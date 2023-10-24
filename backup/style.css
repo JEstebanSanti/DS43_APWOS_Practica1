@@ -1,0 +1,23 @@
+.btn-over-left {
+    position:absolute;
+    left: 6rem;
+    top: 25rem;
+}
+.btn-over-rigth {
+    position:absolute;
+    right: 6rem;
+    top: 25rem;
+}
+.parent-over {
+    position: relative;
+}
+.btn-banner {
+    height: 5rem;
+    width: 15rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-radius: 40px;
+}
+.card-paint-green {
+    background-color: #157F1F;
+}
