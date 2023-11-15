@@ -34,31 +34,6 @@
                 </div>
             </div>
         </nav>
-        <div class="container-fluid w-50">
-            <div id="carouselExampleAutoplaying" class="carousel carousel-fade slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active parent-over">
-                    <img src="/backup/img/webp/descuentoHalloween.webp" class=" w-100" alt="...">
-                    <button class="btn btn-lg btn-green btn-over-left btn-info btn-banner">Ver oferta</button>
-                </div>
-                  <div class="carousel-item">
-                    <img src="/backup/img/webp/viajeGratis.webp" class=" w-100" alt="...">
-                    <button class="btn btn-lg btn-green btn-over-rigth btn-dark btn-banner">Ver oferta</button>  
-                </div>
-                  <div class="carousel-item">
-                    <img src="/backup/img/webp/pizza.webp" class=" w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-        </div>
     </header>
     @yield('content')
     <footer class="conteiner-fluid p-5">

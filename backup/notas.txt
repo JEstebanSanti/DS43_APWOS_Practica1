@@ -1,0 +1,19 @@
+
+Route::prefix(/'route')->group(funtion(){
+    Route::get('/', [CONTROLLER::CLASS, 'VISTA'])->name('lista de comida');
+    Route::get('/view/{id}', [CONTROLLER::CLASS, 'VISTA'])->name('lista de comida');
+    Route::get('/update/{id}', [CONTROLLER::CLASS, 'VISTA'])->name('lista de comida');
+    Route::get('/delete/{id}', [CONTROLLER::CLASS, 'VISTA'])->name('lista de comida');
+    Route::get('/terminate/{id}', [CONTROLLER::CLASS, 'VISTA'])->name('lista de comida');
+    Route::get('/create/{id}', [CONTROLLER::CLASS, 'VISTA'])->name('lista de comida');
+})
+
+
+on Controller class
+a public funtion
+index return views(Products.index)
+view return views(Products.view)
+create return views(Products.create)
+update return views(Products.update)
+terminate return views(Products.terminated)
+delte return views(Products.delete)
