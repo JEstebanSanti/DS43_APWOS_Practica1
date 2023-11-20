@@ -190,7 +190,7 @@
         <div class="row mt-5 align-items-center justify-content-evenly">
             <div class="card col-12 col-md-3 col-sm-12 border-0 card-sm mt-5">
                 <a href="#">
-                    <img src="/backup/img/icon/chocolate.png" class="card-img-top img-fluid" alt="...">
+                    <img src="{{asset('img/icon/chocolate.png')}}" class="card-img-top img-fluid" alt="...">
                     <div class="card-body text-center">
                         <p class="card-title fw-bolder fs-5">NPlatillo</p>
                     </div>
@@ -198,17 +198,7 @@
             </div>
             <div class="card col-12 col-md-3 col-sm-12 border-0 card-sm mt-5">
                 <a href="">
-                    <img src="/backup/img/icon/meals.png" class="card-img-top img-fluid" alt="...">
-                    <div class="card-body text-center">
-                        <p class="card-title fw-bolder fs-5">NPlatillo</p>
-
-                    </div>
-                </a>
-
-            </div>
-            <div class="card col-12 col-md-3 col-sm-12 border-0 card-sm mt-5">
-                <a href="">
-                    <img src="/backup/img/icon/tacos.png" class="card-img-top img-fluid" alt="...">
+                    <img src="{{asset('img/icon/meals.png')}}" class="card-img-top img-fluid" alt="...">
                     <div class="card-body text-center">
                         <p class="card-title fw-bolder fs-5">NPlatillo</p>
 
@@ -218,7 +208,17 @@
             </div>
             <div class="card col-12 col-md-3 col-sm-12 border-0 card-sm mt-5">
                 <a href="">
-                    <img src="/backup/img/icon/vaso-de-papel.png" class="card-img-top img-fluid" alt="...">
+                    <img src="{{asset('img/icon/tacos.png')}}" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body text-center">
+                        <p class="card-title fw-bolder fs-5">NPlatillo</p>
+
+                    </div>
+                </a>
+
+            </div>
+            <div class="card col-12 col-md-3 col-sm-12 border-0 card-sm mt-5">
+                <a href="">
+                    <img src="{{asset('img/icon/vaso-de-papel.png')}}" class="card-img-top img-fluid" alt="...">
                     <div class="card-body text-center">
                         <p class="card-title fw-bolder fs-5">NPlatillo</p>
 
@@ -230,7 +230,7 @@
         <div class="row mt-5 align-items-center justify-content-evenly">
             <div class="card col-12 col-md-3 col-sm-12 border-0 card-sm mt-3">
                 <a href="#">
-                    <img src="/backup/img/icon/chocolate.png" class="card-img-top img-fluid" alt="...">
+                    <img src="{{asset('img/icon/chocolate.png')}}" class="card-img-top img-fluid" alt="...">
                     <div class="card-body text-center">
                         <p class="card-title fw-bolder fs-5">NPlatillo</p>
                     </div>
@@ -238,7 +238,7 @@
             </div>
             <div class="card col-12 col-md-3 col-sm-12 border-0 card-sm mt-3">
                 <a href="">
-                    <img src="/backup/img/icon/meals.png" class="card-img-top img-fluid" alt="...">
+                    <img src="{{asset('img/icon/meals.png')}}" class="card-img-top img-fluid" alt="...">
                     <div class="card-body text-center">
                         <p class="card-title fw-bolder fs-5">NPlatillo</p>
                     </div>
@@ -246,7 +246,7 @@
             </div>
             <div class="card col-12 col-md-3 col-sm-12 border-0 card-sm mt-3">
                 <a href="">
-                    <img src="/backup/img/icon/tacos.png" class="card-img-top img-fluid" alt="...">
+                    <img src="{{asset('img/icon/tacos.png')}}" class="card-img-top img-fluid" alt="...">
                     <div class="card-body text-center">
                         <p class="card-title fw-bolder fs-5">NPlatillo</p>
 
@@ -255,7 +255,7 @@
             </div>
             <div class="card col-12 col-md-3 col-sm-12 border-0 card-sm mt-3">
                 <a href="">
-                    <img src="/backup/img/icon/vaso-de-papel.png" class="card-img-top img-fluid" alt="...">
+                    <img src="{{asset('img/icon/vaso-de-papel.png')}}" class="card-img-top img-fluid" alt="...">
                     <div class="card-body text-center">
                         <p class="card-title fw-bolder fs-5">NPlatillo</p>
                     </div>
@@ -272,7 +272,7 @@
         <div class="row justify-content-evenly mt-5 mb-5">
             <div class="card col-12 col-md-3 col-sm-12 border-0 card-sm mt-3">
                 <a href="">
-                    <img src="/backup/img/establecimientos/cafenio.jpg" class="card-img-top img-fluid" alt="...">
+                    <img src="{{asset('img/establecimientos/cafenio.jpg')}}" class="card-img-top img-fluid" alt="...">
                     <div class="card-body text-center">
                         <p class="card-title fw-bolder fs-5">NPlatillo</p>
                     </div>
@@ -280,7 +280,7 @@
             </div>
             <div class="card col-12 col-md-3 col-sm-12 border-0 card-sm mt-3">
                 <a href="">
-                    <img src="/backup/img/establecimientos/carls.jpeg" class="card-img-top img-fluid" alt="...">
+                    <img src="{{asset('img/establecimientos/carls.jpeg')}}" class="card-img-top img-fluid" alt="...">
                     <div class="card-body text-center">
                         <p class="card-title fw-bolder fs-5">NPlatillo</p>
                     </div>
@@ -288,7 +288,7 @@
             </div>
             <div class="card col-12 col-md-3 col-sm-12 border-0 card-sm mt-3">
                 <a href="">
-                    <img src="/backup/img/establecimientos/liru.jpeg" class="card-img-top img-fluid" alt="...">
+                    <img src="{{asset('img/establecimientos/liru.jpeg')}}" class="card-img-top img-fluid" alt="...">
                     <div class="card-body text-center">
                         <p class="card-title fw-bolder fs-5">NPlatillo</p>
                     </div>
@@ -296,7 +296,7 @@
             </div>
             <div class="card col-12 col-md-3 col-sm-12 border-0 card-sm mt-3">
                 <a href="">
-                    <img src="/backup/img/establecimientos/macdo.png" class="card-img-top img-fluid" alt="...">
+                    <img src="{{asset('img/establecimientos/macdo.png')}}" class="card-img-top img-fluid" alt="...">
                     <div class="card-body text-center">
                         <p class="card-title fw-bolder fs-5">NPlatillo</p>
                     </div>
