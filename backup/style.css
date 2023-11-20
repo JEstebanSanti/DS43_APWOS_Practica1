@@ -1,3 +1,44 @@
+:root {
+    --primary-green: #CCF5AC;
+    --secondary-green: #BAD29F;
+    --primary-blue: #42CAFD;
+    --primary-black: #000100;
+    --secondary-black: #171817;
+
+}
+.bg-primary-blue {
+    background-color: var(--primary-blue);
+}
+.bg-primary-green {
+    background-color: var(--primary-green);
+}
+.bg-primary-black {
+    background-color: var(--primary-black);
+}
+.bg-secondary-green {
+    background-color: var(--secondary-green);
+}
+.slidersProducts {
+    height: 400px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-black);
+}
+.card {
+    transition: transform 450ms;
+}
+.card:hover {
+    transition: 124ms;
+    transform: translateY(-10px);
+}
+
+.heros {
+    max-height: 860px;
+    background-color: var(--primary-blue);
+    border-radius: 40px;
+}
 .btn-over-left {
     position:absolute;
     left: 6rem;
@@ -11,13 +52,30 @@
 .parent-over {
     position: relative;
 }
+.card-sm {
+    max-width: 10rem;
+    max-height: 16rem;
+}
+.carousel-estable {
+    max-height: 24rem;
+}
+.btn-ingreso {
+    padding: 2rem;
+    margin: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-height: 2rem;
+    max-width: 3.5rem;
+    font-weight: 600;
+}
+.btn-ingreso:hover {
+    color: var(--primary-blue);
+}
 .btn-banner {
     height: 5rem;
     width: 15rem;
     font-size: 1.8rem;
     font-weight: 600;
     border-radius: 40px;
-}
-.card-paint-green {
-    background-color: #157F1F;
 }
