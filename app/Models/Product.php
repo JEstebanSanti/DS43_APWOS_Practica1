@@ -8,14 +8,4 @@ use Illuminate\Database\Eloquent\Model;
 class Product extends Model
 {
     use HasFactory;
-
-    public function establishment() {
-        //return $this->belongsTo(establishment::Class); 
-    }
-    public function category() {
-        // **importar los modelos** 
-        // esta funcion es para
-        // relacionar los datos foraneos
-        //return $this->belongsTo(Category::Class);
-    }
 }
