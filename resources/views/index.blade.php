@@ -218,7 +218,7 @@
             </div>
             <div class="card col-12 col-md-3 col-sm-12 border-0 card-sm mt-5">
                 <a href="">
-                    <img src="{{asset('img/icon/vaso-de-papel.png')}}" class="card-img-top img-fluid" alt="...">
+                    <img src="{{asset('/img/icon/vaso-de-papel.png')}}" class="card-img-top img-fluid" alt="...">
                     <div class="card-body text-center">
                         <p class="card-title fw-bolder fs-5">NPlatillo</p>
 

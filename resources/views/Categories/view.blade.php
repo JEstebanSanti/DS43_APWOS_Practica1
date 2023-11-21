@@ -8,9 +8,9 @@
     
     --}}
     
-    <img src="{{$product->img}}">
+    {{-- <img src="{{$product->img}}">
     <p>{{$product->name}}</p>
-    <p>{{$product->description}}</p>
+    <p>{{$product->description}}</p> --}}
 
 
 @endsection

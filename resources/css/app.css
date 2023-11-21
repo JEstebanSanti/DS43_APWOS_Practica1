@@ -73,10 +73,21 @@ a {
 .btn-ingreso:hover {
     color: var(--primary-blue);
 }
+a:hover {
+    color: var(--primary-blue);
+}
 .btn-banner {
     height: 5rem;
     width: 15rem;
     font-size: 1.8rem;
     font-weight: 600;
     border-radius: 40px;
+}
+.icon {
+    width: 2rem;
+    height: 2rem;
+}
+img .icons {
+    width: 2rem;
+    height: 2rem;
 }

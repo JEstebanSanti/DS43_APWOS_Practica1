@@ -1,7 +1,7 @@
-@extends('layouts.page')
-@section('title', 'index Products')
+@extends('layouts.app')
+@section('title', 'index products')
 @section('content')
-
+{{-- Index para ver todos los productos --}}
 <div class="row">
     <div class="col-8">
         <h1>Lista de Productos</h1>
@@ -14,19 +14,19 @@
 {{-- comentario --}} 
 @foreach($products as $product)
     <tr>
-        <td>{{$product->product_id}}</td>
-        <td>{{$product->product_img}}</td>
-        <td>{{$product->product_name}}</td>
-        <td>{{$product->product_price}}</td>
-        <td>{{$product->product_establishment}}</td>
-        <td>{{$product->product_info}}</td>
-        <td>{{$product->category->category_name}}</td>
+        <td>{{$product->id}}</td>
+        <td>{{$product->img}}</td>
+        <td>{{$product->name}}</td>
+        <td>{{$product->price}}</td>
+        <td>{{$product->establishment}}</td>
+        <td>{{$product->info}}</td>
+        {{-- <td>{{$product->category->category_name}}</td> --}}
         <td>
-            {{-- Para que te lleve a pagina view --}}
             <a href="" class="btn"></a>
             <a href="{{route('producs.view')}}">Ver</a>
         </td>
     </tr>
-@endforeach
+@endforeach 
+
 
 @endsection

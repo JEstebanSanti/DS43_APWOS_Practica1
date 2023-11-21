@@ -1,4 +1,4 @@
 @extends('layouts.page')
-@section('title', 'terminate products')
+@section('title', 'terminate categories')
 @section('content')
 @endsection
