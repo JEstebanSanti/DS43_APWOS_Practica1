@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\EstablishmentController;
 use App\Http\Controllers\ProductController;
 use App\Providers\RouteServiceProvider;
@@ -52,6 +53,15 @@ Route::prefix('establishments')->group( function() {
     Route::get('/terminate{id}', [EstablishmentController::class, 'terminate'])->name('establishments.terminate');
     Route::get('/create', [EstablishmentController::class, 'create'])->name('establishments.create');
     Route::post('/create', [EstablishmentController::class, 'store'])->name('establishments.store');
+});
+Route::prefix('customers')->group( function() {
+    Route::get('/', [CustomerController::class, 'index'])->name('customers.index');
+    Route::get('/view{id}', [CustomerController::class, 'view'])->name('customers.view');
+    Route::get('/update{id}', [CustomerController::class, 'update'])->name('customers.update');
+    Route::get('/delete{id}', [CustomerController::class, 'delete'])->name('customers.delete');
+    Route::get('/terminate{id}', [CustomerController::class, 'terminate'])->name('customers.terminate');
+    //Route::get('/create', [CustomerController::class, 'create'])->name('customers.create');
+    //Route::post('/create', [CustomerController::class, 'store'])->name('customers.store');
 });
 
 
