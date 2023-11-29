@@ -7,7 +7,7 @@
         <h1>List of Categories</h1>
     </div>
     <div class="col-2">
-        <a href="" class="btn btn"></a>
+        <a href="{{route('categories.create')}}" class="btn btn-lg btn-success">New</a>
     </div>
 </div>
 <!-- comentario -->
@@ -26,7 +26,7 @@
                 @foreach($categories as $category)
                 <tr>
                     <th scope="row">{{$category->id}}</th>
-                    <td><img src="{{$category->img}}.png" alt="" class="img-fluid icon"></td>
+                    <td><img src="{{asset("$category->img")}}" alt="" class="img-fluid icon"></td>
                  
                     <td>{{$category->name}}</td>
                     <td>

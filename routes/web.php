@@ -7,6 +7,7 @@ use App\Http\Controllers\EstablishmentController;
 use App\Http\Controllers\ProductController;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Support\Facades\Route;
+use illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
